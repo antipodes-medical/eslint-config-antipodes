@@ -27,7 +27,7 @@ yarn add @antipodes-medical/eslint-config-antipodes -D
 
 Simply add a `"rules"` key to your config, then add your overrides and additions there.
 
-For example, to turn off the `scss/at-if-no-null` rule:
+For example, to turn off the `no-console` rule:
 
 ```json
 {
