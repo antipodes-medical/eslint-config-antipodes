@@ -4,7 +4,7 @@ module.exports = {
     "browser": true,
     "es2021": true
   },
-  "ignorePatterns": ["**/vendor/*"],
+  "ignorePatterns": ["**/node_modules/*", "**/vendor/*"],
   "extends": "eslint:recommended",
   "parserOptions": {
     "ecmaVersion": 6,
