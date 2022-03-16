@@ -3,10 +3,6 @@ name: Publish the package to NPM
 on:
   release:
     types: [created]
-  workflow_run:
-    workflows: ["Create a Release"]
-    types:
-      - completed
 
 jobs:
   build:
