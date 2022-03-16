@@ -1,0 +1,19 @@
+{
+  "name": "@antipodes-medical/eslint-config-antipodes",
+  "version": "1.0.0",
+  "author": "Théo Benoit <theo@antipodesmultimedia.com>",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "@babel/core": "^7.17.7",
+    "@babel/eslint-parser": "^7.17.0",
+    "eslint": "^8.0.1",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-standard": "^5.0.0"
+  }
+}
