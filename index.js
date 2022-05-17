@@ -1,6 +1,7 @@
 module.exports = {
   "parser": "@babel/eslint-parser",
   "env": {
+    "node": true,
     "browser": true,
     "es2021": true
   },
